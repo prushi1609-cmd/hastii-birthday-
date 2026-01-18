@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Hastii 💖</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  font-family: 'Segoe UI', sans-serif;
+  background:#fde6ee;
+  color:#7a2e4d;
+  text-align:center;
+  overflow-x:hidden;
+}
+h1{
+  font-size:40px;
+  margin-top:30px;
+  text-shadow:0 0 10px pink;
+}
+.heart{
+  position:fixed;
+  bottom:-20px;
+  font-size:24px;
+  animation: float 10s linear infinite;
+  opacity:0.6;
+}
+@keyframes float{
+  from{transform:translateY(0);}
+  to{transform:translateY(-120vh);}
+}
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+  padding:20px;
+}
+.gallery img{
+  width:100%;
+  border-radius:15px;
+}
+.card{
+  margin:30px;
+  padding:20px;
+  background:white;
+  border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎉 Happy Birthday Hastii 💖</h1>
+<p>From Rishi, with all my heart 💕</p>
+
+<div class="card">
+<h2>Why I Love You 💗</h2>
+<p>
+I love you because your smile feels like peace.<br>
+Because you understand me without words.<br>
+Because loving you feels honest, easy, and real.<br>
+And I’ll keep choosing you — every single day.
+</p>
+</div>
+
+<h2>Your Beautiful Moments 📸</h2>
+<div class="gallery">
+<img src="img1.jpg">
+<img src="img2.jpg">
+<img src="img3.jpg">
+<img src="img4.jpg">
+</div>
+
+<div class="card">
+<h2>Dil Ke Paas 🎶</h2>
+<iframe style="border-radius:12px"
+src="https://open.spotify.com/embed/track/5eYDMV3Fn8KElacH754Bjt"
+width="100%" height="152"
+frameborder="0"
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+</iframe>
+</div>
+
+<script>
+for(let i=0;i<25;i++){
+  let h=document.createElement("div");
+  h.innerHTML="💗";
+  h.className="heart";
+  h.style.left=Math.random()*100+"vw";
+  h.style.animationDuration=8+Math.random()*6+"s";
+  document.body.appendChild(h);
+}
+</script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Hastii 💖</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  font-family: 'Segoe UI', sans-serif;
+  background:#fde6ee;
+  color:#7a2e4d;
+  text-align:center;
+  overflow-x:hidden;
+}
+h1{
+  font-size:40px;
+  margin-top:30px;
+  text-shadow:0 0 10px pink;
+}
+.heart{
+  position:fixed;
+  bottom:-20px;
+  font-size:24px;
+  animation: float 10s linear infinite;
+  opacity:0.6;
+}
+@keyframes float{
+  from{transform:translateY(0);}
+  to{transform:translateY(-120vh);}
+}
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+  padding:20px;
+}
+.gallery img{
+  width:100%;
+  border-radius:15px;
+}
+.card{
+  margin:30px;
+  padding:20px;
+  background:white;
+  border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎉 Happy Birthday Hastii 💖</h1>
+<p>From Rishi, with all my heart 💕</p>
+
+<div class="card">
+<h2>Why I Love You 💗</h2>
+<p>
+I love you because your smile feels like peace.<br>
+Because you understand me without words.<br>
+Because loving you feels honest, easy, and real.<br>
+And I’ll keep choosing you — every single day.
+</p>
+</div>
+
+<h2>Your Beautiful Moments 📸</h2>
+<div class="gallery">
+<img src="img1.jpg">
+<img src="img2.jpg">
+<img src="img3.jpg">
+<img src="img4.jpg">
+</div>
+
+<div class="card">
+<h2>Dil Ke Paas 🎶</h2>
+<iframe style="border-radius:12px"
+src="https://open.spotify.com/embed/track/5eYDMV3Fn8KElacH754Bjt"
+width="100%" height="152"
+frameborder="0"
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+</iframe>
+</div>
+
+<script>
+for(let i=0;i<25;i++){
+  let h=document.createElement("div");
+  h.innerHTML="💗";
+  h.className="heart";
+  h.style.left=Math.random()*100+"vw";
+  h.style.animationDuration=8+Math.random()*6+"s";
+  document.body.appendChild(h);
+}
+</script>
+
+</body>
+</html>
