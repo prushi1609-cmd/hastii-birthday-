@@ -1,11 +1,250 @@
-index.html
-img1.jpg 
-img2.jpg 
-img3.jpg 
-img4.jpg 
-img5.jpg 
-img6.jpg 
-img7.jpg 
-img8.jpg 
-img9.jpg 
-img10.jpg 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Hastii 💕</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: linear-gradient(180deg,#ffe4ec,#fff);
+  overflow-x:hidden;
+}
+
+section{
+  padding:60px 20px;
+  text-align:center;
+}
+
+h1{
+  font-size:2.4rem;
+  color:#ff4f8b;
+}
+
+p{
+  color:#555;
+  max-width:720px;
+  margin:15px auto;
+  font-size:1.05rem;
+}
+
+/* Hearts */
+.heart{
+  position:fixed;
+  bottom:-20px;
+  font-size:20px;
+  color:pink;
+  animation: float 12s linear infinite;
+}
+
+@keyframes float{
+  0%{transform:translateY(0);opacity:1;}
+  100%{transform:translateY(-110vh);opacity:0;}
+}
+
+/* Countdown */
+.countdown{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  margin-top:25px;
+}
+
+.box{
+  background:white;
+  padding:15px 18px;
+  border-radius:15px;
+  box-shadow:0 10px 20px rgba(0,0,0,0.15);
+  min-width:70px;
+}
+
+.box h2{
+  color:#ff4f8b;
+  font-size:1.6rem;
+}
+
+.box span{
+  font-size:0.8rem;
+  color:#777;
+}
+
+/* Gallery */
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:20px;
+  max-width:1000px;
+  margin:auto;
+}
+
+.gallery img{
+  width:100%;
+  border-radius:15px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+  transition:0.4s;
+}
+
+.gallery img:hover{
+  transform:scale(1.05);
+}
+
+/* Reasons */
+.reasons{
+  max-width:600px;
+  margin:auto;
+  text-align:left;
+}
+
+.reasons li{
+  list-style:none;
+  padding:10px 0;
+  font-size:1.05rem;
+  color:#444;
+}
+
+.reasons li::before{
+  content:"💗 ";
+}
+
+/* Spotify */
+.spotify{
+  max-width:350px;
+  margin:30px auto;
+}
+
+/* Footer */
+footer{
+  padding:40px 20px;
+  text-align:center;
+  color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section>
+  <h1>Happiest 18th Birthday Hastii 💕 Finally Legal!!</h1>
+  <p>Someone smiles today because you exist ✨</p>
+
+  <!-- COUNTDOWN -->
+  <div class="countdown">
+    <div class="box"><h2 id="days">0</h2><span>Days</span></div>
+    <div class="box"><h2 id="hours">0</h2><span>Hours</span></div>
+    <div class="box"><h2 id="minutes">0</h2><span>Minutes</span></div>
+    <div class="box"><h2 id="seconds">0</h2><span>Seconds</span></div>
+  </div>
+</section>
+
+<!-- MESSAGE -->
+<section>
+  <p>
+    I don’t know how to say everything in words,<br>
+    so I made this little page instead.<br><br>
+    
+    Wishing you the biggest slice of happy today.<br><br>
+    
+    Hope all your birthday wishes come true!<br><br>
+    
+    I wish you to know you have been the last dream of my soul.<br><br>
+    
+    I hope today makes you smile as much as you make others smile 💗
+    
+  </p>
+</section>
+
+<!-- MUSIC -->
+<section>
+  <h1>A Song Dedicated To You 🎶</h1>
+  <p>Dil ke paas rehna tum… 💞</p>
+  <div class="spotify">
+    <iframe style="border-radius:12px"
+      src="https://open.spotify.com/embed/track/5eYDMV3Fn8KElacH754Bjt"
+      width="100%" height="352" frameBorder="0"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+    </iframe>
+  </div>
+</section>
+
+<!-- REASONS -->
+<section>
+  <h1>Reasons Why I Embrace You 🌸</h1>
+  <ul class="reasons">
+    <li>Your smile feels effortless and real</li>
+    <li>The way you light up simple moments</li>
+    <li>Your calm, positive vibe</li>
+    <li>The little things you don’t even realize you do</li>
+    <li>Because being yourself is enough</li>
+  </ul>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery">
+  <h2>Your Beautiful Moments 📸</h2>
+  <div class="gallery-grid">
+    <img src="img1.jpg" alt="Hastii's moment">
+    <img src="img2.jpg" alt="Hastii's moment">
+    <img src="img3.jpg" alt="Hastii's moment">
+    <img src="img4.jpg" alt="Hastii's moment">
+    <img src="img5.jpg" alt="Hastii's moment">
+    <img src="img6.jpg" alt="Hastii's moment">
+    <img src="img7.jpg" alt="Hastii's moment">
+    <img src="img8.jpg" alt="Hastii's moment">
+    <img src="img9.jpg" alt="Hastii's moment">
+    <img src="img10.jpg" alt="Hastii's moment">
+  </div>
+</section>
+
+
+
+<!-- END -->
+<footer>
+  <p>
+    That’s all…<br>
+    Just wanted to make you smile today 🌸<br><br>
+    Once again Happiest Birthday Miss. Ahmedabad 👸
+    — <b>Rishi</b>
+  </p>
+</footer>
+
+<script>
+// HEARTS (slow)
+setInterval(()=>{
+  const heart=document.createElement("div");
+  heart.className="heart";
+  heart.innerHTML="💗";
+  heart.style.left=Math.random()*100+"vw";
+  heart.style.fontSize=(16+Math.random()*10)+"px";
+  document.body.appendChild(heart);
+  setTimeout(()=>heart.remove(),12000);
+},900);
+
+// COUNTDOWN
+const birthday = new Date("2026-01-23"); // CHANGE DATE HERE
+
+function updateCountdown(){
+  const now = new Date();
+  const diff = birthday - now;
+
+  if(diff <= 0) return;
+
+  document.getElementById("days").innerText = Math.floor(diff / (1000*60*60*24));
+  document.getElementById("hours").innerText = Math.floor((diff / (1000*60*60)) % 24);
+  document.getElementById("minutes").innerText = Math.floor((diff / (1000*60)) % 60);
+  document.getElementById("seconds").innerText = Math.floor((diff / 1000) % 60);
+}
+
+setInterval(updateCountdown,1000);
+updateCountdown();
+</script>
+
+</body>
+</html>
